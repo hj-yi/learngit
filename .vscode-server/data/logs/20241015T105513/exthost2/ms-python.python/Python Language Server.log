@@ -1,0 +1,56 @@
+2024-10-15 10:55:46.380 [info] (Client) Pylance async client (2024.10.1) started with python extension (2024.16.1)
+2024-10-15 10:55:46.631 [info] [Info  - 10:55:46 AM] (13243) Server root directory: file:///home/yihongjin/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-15 10:55:46.632 [info] [Info  - 10:55:46 AM] (13243) Pylance language server 2024.10.1 (pyright version 1.1.382, commit e46efc6b) starting
+2024-10-15 10:55:46.632 [info] [Info  - 10:55:46 AM] (13243) Starting service instance "HelloWorld"
+2024-10-15 10:55:46.656 [info] [Info  - 10:55:46 AM] (13243) Setting environmentName for service "HelloWorld": "3.12.3 (.venv venv)"
+2024-10-15 10:55:46.656 [info] [Info  - 10:55:46 AM] (13243) Setting pythonPath for service "HelloWorld": "/home/yihongjin/HelloWorld/.venv/bin/python"
+2024-10-15 10:55:46.656 [info] [Info  - 10:55:46 AM] (13243) No include entries specified; assuming /home/yihongjin/HelloWorld
+2024-10-15 10:55:46.657 [info] [Info  - 10:55:46 AM] (13243) Auto-excluding **/node_modules
+2024-10-15 10:55:46.657 [info] [Info  - 10:55:46 AM] (13243) Auto-excluding **/__pycache__
+2024-10-15 10:55:46.657 [info] [Info  - 10:55:46 AM] (13243) Auto-excluding **/.*
+2024-10-15 10:55:46.670 [info] [Info  - 10:55:46 AM] (13243) Assuming Python version 3.12.3.final.0
+2024-10-15 10:55:46.734 [info] [Info  - 10:55:46 AM] (13243) No source files found.
+2024-10-15 10:55:46.962 [info] [Info  - 10:55:46 AM] (13243) Background analysis(1) root directory: file:///home/yihongjin/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-15 10:55:46.962 [info] [Info  - 10:55:46 AM] (13243) Background analysis(1) started
+2024-10-15 10:55:47.004 [info] [Info  - 10:55:47 AM] (13243) Indexer background runner(2) root directory: file:///home/yihongjin/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist (index)
+2024-10-15 10:55:47.004 [info] [Info  - 10:55:47 AM] (13243) Indexing(2) started
+2024-10-15 10:55:47.225 [info] [Info  - 10:55:47 AM] (13243) scanned(2) 15 files over 1 exec env
+2024-10-15 10:55:47.652 [info] [Info  - 10:55:47 AM] (13243) indexed(2) 15 files over 1 exec env
+2024-10-15 10:55:47.667 [info] [Info  - 10:55:47 AM] (13243) Indexing finished(2).
+2024-10-15 10:57:48.786 [info] [Info  - 10:57:48 AM] (13243) Starting service instance "<default>"
+2024-10-15 10:57:48.800 [info] [Info  - 10:57:48 AM] (13243) Setting environmentName for service "<default>": "3.12.3 (.venv venv)"
+2024-10-15 10:57:48.800 [info] [Info  - 10:57:48 AM] (13243) Setting pythonPath for service "<default>": "/home/yihongjin/HelloWorld/.venv/bin/python"
+2024-10-15 10:57:48.800 [info] [Info  - 10:57:48 AM] (13243) No include entries specified; assuming /<default workspace root>
+2024-10-15 10:57:48.800 [info] [Info  - 10:57:48 AM] (13243) Auto-excluding **/node_modules
+2024-10-15 10:57:48.800 [info] [Info  - 10:57:48 AM] (13243) Auto-excluding **/__pycache__
+2024-10-15 10:57:48.801 [info] [Info  - 10:57:48 AM] (13243) Auto-excluding **/.*
+2024-10-15 10:57:48.818 [info] [Info  - 10:57:48 AM] (13243) Assuming Python version 3.12.3.final.0
+2024-10-15 10:57:48.841 [info] [Error - 10:57:48 AM] (13243) File or directory "/<default workspace root>" does not exist.
+2024-10-15 10:57:48.841 [info] [Info  - 10:57:48 AM] (13243) No source files found.
+2024-10-15 10:57:49.043 [info] [Info  - 10:57:49 AM] (13243) Background analysis(3) root directory: file:///home/yihongjin/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-15 10:57:49.045 [info] [Info  - 10:57:49 AM] (13243) Background analysis(3) started
+2024-10-15 10:59:02.318 [info] [Info  - 10:59:02 AM] (13243) Found 1 source file
+2024-10-15 11:01:16.627 [info] [Info  - 11:01:16 AM] (13243) Setting environmentName for service "HelloWorld": "3.12.3 (.venv venv)"
+2024-10-15 11:01:16.627 [info] [Info  - 11:01:16 AM] (13243) Setting pythonPath for service "HelloWorld": "/home/yihongjin/HelloWorld/.venv/bin/python"
+2024-10-15 11:01:16.627 [info] [Info  - 11:01:16 AM] (13243) No include entries specified; assuming /home/yihongjin/HelloWorld
+2024-10-15 11:01:16.627 [info] [Info  - 11:01:16 AM] (13243) Auto-excluding **/node_modules
+2024-10-15 11:01:16.627 [info] [Info  - 11:01:16 AM] (13243) Auto-excluding **/__pycache__
+2024-10-15 11:01:16.627 [info] [Info  - 11:01:16 AM] (13243) Auto-excluding **/.*
+2024-10-15 11:01:16.642 [info] [Info  - 11:01:16 AM] (13243) Assuming Python version 3.12.3.final.0
+2024-10-15 11:01:16.667 [info] [Info  - 11:01:16 AM] (13243) Found 1 source file
+2024-10-15 11:01:16.695 [info] [Info  - 11:01:16 AM] (13243) Setting environmentName for service "<default>": "3.12.3 (.venv venv)"
+2024-10-15 11:01:16.695 [info] [Info  - 11:01:16 AM] (13243) Setting pythonPath for service "<default>": "/home/yihongjin/HelloWorld/.venv/bin/python"
+2024-10-15 11:01:16.695 [info] [Info  - 11:01:16 AM] (13243) No include entries specified; assuming /<default workspace root>
+2024-10-15 11:01:16.695 [info] [Info  - 11:01:16 AM] (13243) Auto-excluding **/node_modules
+2024-10-15 11:01:16.695 [info] [Info  - 11:01:16 AM] (13243) Auto-excluding **/__pycache__
+2024-10-15 11:01:16.695 [info] [Info  - 11:01:16 AM] (13243) Auto-excluding **/.*
+2024-10-15 11:01:16.712 [info] [Info  - 11:01:16 AM] (13243) Assuming Python version 3.12.3.final.0
+2024-10-15 11:01:16.738 [info] [Error - 11:01:16 AM] (13243) File or directory "/<default workspace root>" does not exist.
+2024-10-15 11:01:16.738 [info] [Info  - 11:01:16 AM] (13243) No source files found.
+2024-10-15 11:01:16.925 [info] [Info  - 11:01:16 AM] (13243) Indexer background runner(4) root directory: file:///home/yihongjin/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist (index)
+2024-10-15 11:01:16.925 [info] [Info  - 11:01:16 AM] (13243) Indexing(4) started
+2024-10-15 11:01:17.050 [info] [Info  - 11:01:17 AM] (13243) scanned(4) 15 files over 1 exec env
+2024-10-15 11:01:17.156 [info] [Info  - 11:01:17 AM] (13243) indexed(4) 15 files over 1 exec env
+2024-10-15 11:01:17.167 [info] [Info  - 11:01:17 AM] (13243) Indexing finished(4).
+2024-10-15 11:01:58.255 [info] [Info  - 11:01:58 AM] (13243) No source files found.
+2024-10-15 11:02:18.289 [info] [Info  - 11:02:18 AM] (13243) No source files found.

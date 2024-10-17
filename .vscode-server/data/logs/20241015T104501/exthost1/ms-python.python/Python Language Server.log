@@ -1,0 +1,19 @@
+2024-10-15 10:48:12.210 [info] (Client) Pylance async client (2024.10.1) started with python extension (2024.16.1)
+2024-10-15 10:48:12.462 [info] [Info  - 10:48:12 AM] (9709) Server root directory: file:///home/yihongjin/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-15 10:48:12.462 [info] [Info  - 10:48:12 AM] (9709) Pylance language server 2024.10.1 (pyright version 1.1.382, commit e46efc6b) starting
+2024-10-15 10:48:12.462 [info] [Info  - 10:48:12 AM] (9709) Starting service instance "HelloWorld"
+2024-10-15 10:48:12.493 [info] [Info  - 10:48:12 AM] (9709) Setting environmentName for service "HelloWorld": "3.12.3 (.venv venv)"
+2024-10-15 10:48:12.494 [info] [Info  - 10:48:12 AM] (9709) Setting pythonPath for service "HelloWorld": "/home/yihongjin/HelloWorld/.venv/bin/python"
+2024-10-15 10:48:12.494 [info] [Info  - 10:48:12 AM] (9709) No include entries specified; assuming /home/yihongjin/HelloWorld
+2024-10-15 10:48:12.496 [info] [Info  - 10:48:12 AM] (9709) Auto-excluding **/node_modules
+2024-10-15 10:48:12.496 [info] [Info  - 10:48:12 AM] (9709) Auto-excluding **/__pycache__
+2024-10-15 10:48:12.496 [info] [Info  - 10:48:12 AM] (9709) Auto-excluding **/.*
+2024-10-15 10:48:12.508 [info] [Info  - 10:48:12 AM] (9709) Assuming Python version 3.12.3.final.0
+2024-10-15 10:48:12.541 [info] [Info  - 10:48:12 AM] (9709) No source files found.
+2024-10-15 10:48:12.741 [info] [Info  - 10:48:12 AM] (9709) Background analysis(1) root directory: file:///home/yihongjin/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-15 10:48:12.743 [info] [Info  - 10:48:12 AM] (9709) Background analysis(1) started
+2024-10-15 10:48:54.739 [info] [Info  - 10:48:54 AM] (9709) Indexer background runner(2) root directory: file:///home/yihongjin/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist (index)
+2024-10-15 10:48:54.741 [info] [Info  - 10:48:54 AM] (9709) Indexing(2) started
+2024-10-15 10:48:55.027 [info] [Info  - 10:48:55 AM] (9709) scanned(2) 10 files over 1 exec env
+2024-10-15 10:48:55.376 [info] [Info  - 10:48:55 AM] (9709) indexed(2) 10 files over 1 exec env
+2024-10-15 10:48:55.384 [info] [Info  - 10:48:55 AM] (9709) Indexing finished(2).

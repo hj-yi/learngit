@@ -1,0 +1,36 @@
+2024-10-15 10:45:01.121 [info] 
+
+
+
+
+2024-10-15 10:45:01.127 [info] Extension host agent started.
+2024-10-15 10:45:01.148 [info] Started initializing default profile extensions in extensions installation folder. file:///home/yihongjin/.vscode-server/extensions
+2024-10-15 10:45:01.154 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/yihongjin/.vscode-server/extensions
+2024-10-15 10:45:01.362 [info] [127.0.0.1][e0cfae8b][ManagementConnection] New connection established.
+2024-10-15 10:45:01.526 [info] [127.0.0.1][dcd4a51e][ExtensionHostConnection] New connection established.
+2024-10-15 10:45:01.529 [info] [127.0.0.1][dcd4a51e][ExtensionHostConnection] <7688> Launched Extension Host Process.
+2024-10-15 10:47:51.302 [info] Getting Manifest... ms-python.python
+2024-10-15 10:47:51.367 [info] Installing extension: ms-python.python {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/yihongjin/.vscode-server/extensions/extensions.json","external":"file:///home/yihongjin/.vscode-server/extensions/extensions.json","path":"/home/yihongjin/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.94.2","date":"2024-10-09T16:08:44.566Z"}}
+2024-10-15 10:47:52.028 [info] Getting Manifest... ms-python.vscode-pylance
+2024-10-15 10:47:52.046 [info] Getting Manifest... ms-python.debugpy
+2024-10-15 10:47:52.075 [info] Installing extension: ms-python.vscode-pylance {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64","dependecyOrPackExtensionInstall":true},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/yihongjin/.vscode-server/extensions/extensions.json","external":"file:///home/yihongjin/.vscode-server/extensions/extensions.json","path":"/home/yihongjin/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.94.2","date":"2024-10-09T16:08:44.566Z"}}
+2024-10-15 10:47:52.075 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64","dependecyOrPackExtensionInstall":true},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/yihongjin/.vscode-server/extensions/extensions.json","external":"file:///home/yihongjin/.vscode-server/extensions/extensions.json","path":"/home/yihongjin/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.94.2","date":"2024-10-09T16:08:44.566Z"}}
+2024-10-15 10:48:05.975 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Executed: true. Duration: 1376ms.
+2024-10-15 10:48:06.752 [info] Extension signature verification result for ms-python.debugpy: Success. Executed: true. Duration: 4205ms.
+2024-10-15 10:48:07.282 [info] Extracted extension to file:///home/yihongjin/.vscode-server/extensions/ms-python.debugpy-2024.12.0-linux-x64: ms-python.debugpy
+2024-10-15 10:48:07.291 [info] Renamed to /home/yihongjin/.vscode-server/extensions/ms-python.debugpy-2024.12.0-linux-x64
+2024-10-15 10:48:07.780 [info] Extension signature verification result for ms-python.python: Success. Executed: true. Duration: 573ms.
+2024-10-15 10:48:09.324 [info] Extracted extension to file:///home/yihongjin/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64: ms-python.python
+2024-10-15 10:48:09.335 [info] Renamed to /home/yihongjin/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64
+2024-10-15 10:48:10.247 [info] Extracted extension to file:///home/yihongjin/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1: ms-python.vscode-pylance
+2024-10-15 10:48:10.254 [info] Renamed to /home/yihongjin/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1
+2024-10-15 10:48:10.264 [info] Extension installed successfully: ms-python.debugpy file:///home/yihongjin/.vscode-server/extensions/extensions.json
+2024-10-15 10:48:10.264 [info] Extension installed successfully: ms-python.python file:///home/yihongjin/.vscode-server/extensions/extensions.json
+2024-10-15 10:48:10.264 [info] Extension installed successfully: ms-python.vscode-pylance file:///home/yihongjin/.vscode-server/extensions/extensions.json
+2024-10-15 10:49:00.369 [info] [127.0.0.1][e0cfae8b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-15 10:49:00.372 [info] [127.0.0.1][dcd4a51e][ExtensionHostConnection] <7688> Extension Host Process exited with code: 0, signal: null.
+2024-10-15 10:49:01.366 [info] [127.0.0.1][eabfeeaf][ManagementConnection] New connection established.
+2024-10-15 10:49:01.536 [info] [127.0.0.1][78d64110][ExtensionHostConnection] New connection established.
+2024-10-15 10:49:01.539 [info] [127.0.0.1][78d64110][ExtensionHostConnection] <10314> Launched Extension Host Process.
+2024-10-15 10:49:10.136 [info] [127.0.0.1][eabfeeaf][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-15 10:49:10.152 [info] [127.0.0.1][78d64110][ExtensionHostConnection] <10314> Extension Host Process exited with code: 0, signal: null.

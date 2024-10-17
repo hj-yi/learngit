@@ -1,0 +1,53 @@
+2024-10-15 10:55:45.445 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-10-15 10:55:45.445 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-10-15 10:55:45.445 [info] Experiment 'pythonTestAdapter' is active
+2024-10-15 10:55:45.445 [warning] Dir "/home/yihongjin/HelloWorld/.pixi/envs" is not watchable (directory does not exist)
+2024-10-15 10:55:45.445 [info] Default formatter is set to null for workspace /home/yihongjin/HelloWorld
+2024-10-15 10:55:45.445 [info] Starting Environment refresh
+2024-10-15 10:55:45.445 [info] Searching for interpreters in posix paths locator
+2024-10-15 10:55:45.445 [info] Searching for pyenv environments
+2024-10-15 10:55:45.445 [info] Searching for conda environments
+2024-10-15 10:55:45.445 [info] Searching for global virtual environments
+2024-10-15 10:55:45.445 [info] Searching for custom virtual environments
+2024-10-15 10:55:45.445 [info] pyenv is not installed
+2024-10-15 10:55:45.445 [info] Finished searching for pyenv environments: 226 milliseconds
+2024-10-15 10:55:45.445 [info] Finished searching for custom virtual envs: 226 milliseconds
+2024-10-15 10:55:45.445 [info] > conda info --json
+2024-10-15 10:55:45.445 [info] > pixi --version
+2024-10-15 10:55:45.445 [info] > hatch env show --json
+2024-10-15 10:55:45.445 [info] cwd: .
+2024-10-15 10:55:45.445 [info] Finished searching for global virtual envs: 402 milliseconds
+2024-10-15 10:55:45.447 [info] > pyenv which python
+2024-10-15 10:55:45.447 [info] cwd: .
+2024-10-15 10:55:45.448 [info] Found: /bin/python3 --> /bin/python3.12
+2024-10-15 10:55:45.448 [info] Found: /bin/python3.12 --> /bin/python3.12
+2024-10-15 10:55:45.460 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2024-10-15 10:55:45.461 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2024-10-15 10:55:45.523 [info] > ./.venv/bin/python -I ~/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/interpreterInfo.py
+2024-10-15 10:55:45.569 [info] Python interpreter path: ./.venv/bin/python
+2024-10-15 10:55:45.679 [info] Finished searching for interpreters in posix paths locator: 641 milliseconds
+2024-10-15 10:55:45.679 [info] > /bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/interpreterInfo.py
+2024-10-15 10:55:45.706 [info] > /usr/bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/interpreterInfo.py
+2024-10-15 10:55:45.706 [info] Environments refresh paths discovered (event): 670 milliseconds
+2024-10-15 10:55:45.706 [info] Environments refresh paths discovered: 670 milliseconds
+2024-10-15 10:55:45.730 [info] Environments refresh finished (event): 694 milliseconds
+2024-10-15 10:55:45.735 [info] Environment refresh took 698 milliseconds
+2024-10-15 10:55:45.879 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/printEnvVariables.py
+2024-10-15 10:55:45.879 [info] shell: bash
+2024-10-15 10:55:45.897 [info] > /bin/python3 ~/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/printEnvVariables.py
+2024-10-15 10:55:45.897 [info] shell: bash
+2024-10-15 10:55:45.914 [info] Setting environment variable VIRTUAL_ENV in collection to /home/yihongjin/HelloWorld/.venv {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-10-15 10:55:45.914 [info] Setting environment variable VIRTUAL_ENV_PROMPT in collection to (.venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-10-15 10:55:45.914 [info] Prepending environment variable PS1 in collection with (.venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2024-10-15 10:55:45.914 [info] Prepending environment variable PATH in collection with /home/yihongjin/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/deactivate/bash:/home/yihongjin/HelloWorld/.venv/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-10-15 10:55:45.915 [info] Send text to terminal: /bin/python3 /home/yihongjin/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/printEnvVariablesToFile.py /home/yihongjin/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/deactivate/bash/envVars.txt
+2024-10-15 10:55:46.640 [info] Starting Pylance language server.
+2024-10-15 10:59:01.975 [info] Discover tests for workspace name: HelloWorld - uri: /home/yihongjin/HelloWorld/print("hi"*3).py
+2024-10-15 10:59:26.221 [info] CreateEnv Trigger - Skipping for /home/yihongjin/HelloWorld/print("hi"*3).py
+2024-10-15 10:59:47.066 [info] Discover tests for workspace name: HelloWorld - uri: /home/yihongjin/HelloWorld/print("hi"*3).py
+2024-10-15 11:01:16.607 [info] Discover tests for workspace name: HelloWorld - uri: /home/yihongjin/HelloWorld
+2024-10-15 11:01:16.608 [info] Setting environment variable VIRTUAL_ENV in collection to /home/yihongjin/HelloWorld/.venv {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-10-15 11:01:16.608 [info] Setting environment variable VIRTUAL_ENV_PROMPT in collection to (.venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-10-15 11:01:16.608 [info] Prepending environment variable PS1 in collection with (.venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2024-10-15 11:01:16.608 [info] Prepending environment variable PATH in collection with /home/yihongjin/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/deactivate/bash:/home/yihongjin/HelloWorld/.venv/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-10-15 11:02:37.237 [info] Discover tests for workspace name: HelloWorld - uri: /home/yihongjin/HelloWorld/.venv/pytest.py

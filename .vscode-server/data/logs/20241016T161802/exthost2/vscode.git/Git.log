@@ -1,0 +1,264 @@
+2024-10-16 16:18:44.595 [info] [main] Log level: Info
+2024-10-16 16:18:44.595 [info] [main] Validating found git in: "git"
+2024-10-16 16:18:44.595 [info] [main] Using git "2.43.0" from "git"
+2024-10-16 16:18:44.595 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-16 16:18:44.595 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-16 16:18:44.595 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-16 16:18:44.596 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-16 16:18:44.596 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-16 16:18:44.599 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-16 16:18:44.599 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-16 16:18:44.602 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-16 16:18:44.602 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-16 16:18:44.605 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-16 16:18:44.605 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-16 16:18:44.608 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-16 16:18:44.609 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-16 16:18:44.615 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-16 16:18:44.620 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-10-16 16:18:44.635 [info] [Model][openRepository] Opened repository: /home/yihongjin/learngit
+2024-10-16 16:18:44.643 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-16 16:18:44.651 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 16:18:44.652 [info] > git config --get commit.template [4ms]
+2024-10-16 16:18:44.710 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [59ms]
+2024-10-16 16:18:44.710 [warning] [Git][getBranch] No such branch: master
+2024-10-16 16:18:44.720 [info] > git status -z -uall [7ms]
+2024-10-16 16:18:44.720 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-10-16 16:18:44.734 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2024-10-16 16:18:44.735 [warning] [Git][getBranch] No such branch: master
+2024-10-16 16:18:44.735 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2024-10-16 16:18:44.737 [info] > git config --get commit.template [5ms]
+2024-10-16 16:18:44.740 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 16:18:44.740 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-10-16 16:18:44.740 [warning] [Git][getBranch] No such branch: master
+2024-10-16 16:18:44.757 [info] > git status -z -uall [15ms]
+2024-10-16 16:18:44.760 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [16ms]
+2024-10-16 16:18:45.194 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-16 16:19:16.091 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-16 16:19:16.091 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-16 16:19:32.246 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-16 16:19:32.246 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-16 16:21:55.565 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-16 16:21:55.566 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-16 16:21:55.912 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-16 16:21:56.531 [info] > git config --get commit.template [4ms]
+2024-10-16 16:21:56.531 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 16:21:56.553 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [22ms]
+2024-10-16 16:21:56.553 [warning] [Git][getBranch] No such branch: master
+2024-10-16 16:21:56.560 [info] > git status -z -uall [5ms]
+2024-10-16 16:21:56.561 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-16 16:21:56.960 [info] > git show --textconv :readme.txt [21ms]
+2024-10-16 16:21:56.961 [info] > git ls-files --stage -- /home/yihongjin/learngit/readme.txt [20ms]
+2024-10-16 16:22:11.593 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 16:22:11.594 [info] > git config --get commit.template [4ms]
+2024-10-16 16:22:11.595 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-16 16:22:11.595 [warning] [Git][getBranch] No such branch: master
+2024-10-16 16:22:11.603 [info] > git status -z -uall [5ms]
+2024-10-16 16:22:11.605 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-10-16 16:23:45.240 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 16:23:45.244 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2024-10-16 16:23:45.245 [warning] [Git][getBranch] No such branch: master
+2024-10-16 16:23:45.245 [info] > git config --get commit.template [12ms]
+2024-10-16 16:23:45.251 [info] > git status -z -uall [4ms]
+2024-10-16 16:23:45.252 [info] > git ls-files --stage -- /home/yihongjin/learngit/readme.txt [8ms]
+2024-10-16 16:23:45.254 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-10-16 16:23:45.257 [info] > git cat-file -s 1245f42e8ad4060b1c8544a0a45a7c261c0c3b79 [3ms]
+2024-10-16 16:23:45.352 [info] > git show --textconv :readme.txt [4ms]
+2024-10-16 16:27:56.455 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-16 16:27:56.455 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-16 16:28:25.773 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 16:28:25.775 [info] > git config --get commit.template [2ms]
+2024-10-16 16:28:25.779 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-10-16 16:28:25.786 [info] > git status -z -uall [4ms]
+2024-10-16 16:28:25.786 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-10-16 16:28:26.690 [info] > git ls-files --stage -- /home/yihongjin/learngit/readme.txt [1ms]
+2024-10-16 16:28:26.698 [info] > git cat-file -s 1245f42e8ad4060b1c8544a0a45a7c261c0c3b79 [2ms]
+2024-10-16 16:28:26.709 [info] > git show --textconv :readme.txt [2ms]
+2024-10-16 16:28:30.799 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 16:28:30.803 [info] > git config --get commit.template [5ms]
+2024-10-16 16:28:30.804 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-16 16:28:30.810 [info] > git status -z -uall [4ms]
+2024-10-16 16:28:30.812 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-10-16 16:29:37.011 [info] > git show --textconv :readme.txt [5ms]
+2024-10-16 16:29:37.012 [info] > git ls-files --stage -- /home/yihongjin/learngit/readme.txt [2ms]
+2024-10-16 16:29:37.016 [info] > git cat-file -s 1245f42e8ad4060b1c8544a0a45a7c261c0c3b79 [1ms]
+2024-10-16 16:29:39.516 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 16:29:39.516 [info] > git config --get commit.template [5ms]
+2024-10-16 16:29:39.517 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-16 16:29:39.524 [info] > git status -z -uall [3ms]
+2024-10-16 16:29:39.526 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-16 16:32:36.941 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 16:32:36.942 [info] > git config --get commit.template [3ms]
+2024-10-16 16:32:36.943 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-16 16:32:36.950 [info] > git status -z -uall [5ms]
+2024-10-16 16:32:36.950 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-10-16 16:32:38.013 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 16:32:38.014 [info] > git config --get commit.template [4ms]
+2024-10-16 16:32:38.014 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-10-16 16:32:38.022 [info] > git status -z -uall [5ms]
+2024-10-16 16:32:38.023 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-16 16:32:38.116 [info] > git ls-files --stage -- /home/yihongjin/learngit/readme.txt [2ms]
+2024-10-16 16:32:38.122 [info] > git cat-file -s 9a022bf9e43cea0e0d8b14222b6bb3dad59fd220 [2ms]
+2024-10-16 16:32:38.134 [info] > git show --textconv :readme.txt [2ms]
+2024-10-16 16:33:01.880 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 16:33:01.880 [info] > git config --get commit.template [3ms]
+2024-10-16 16:33:01.881 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-16 16:33:01.887 [info] > git status -z -uall [4ms]
+2024-10-16 16:33:01.887 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-16 16:33:02.996 [info] > git config --get commit.template [1ms]
+2024-10-16 16:33:02.999 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 16:33:03.001 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-16 16:33:03.007 [info] > git status -z -uall [4ms]
+2024-10-16 16:33:03.008 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-10-16 16:33:03.105 [info] > git ls-files --stage -- /home/yihongjin/learngit/readme.txt [2ms]
+2024-10-16 16:33:03.109 [info] > git cat-file -s 9a022bf9e43cea0e0d8b14222b6bb3dad59fd220 [2ms]
+2024-10-16 16:33:03.122 [info] > git show --textconv :readme.txt [2ms]
+2024-10-16 16:34:02.336 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 16:34:02.337 [info] > git config --get commit.template [3ms]
+2024-10-16 16:34:02.338 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-16 16:34:02.343 [info] > git status -z -uall [3ms]
+2024-10-16 16:34:02.344 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-10-16 16:34:12.490 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 16:34:12.490 [info] > git config --get commit.template [2ms]
+2024-10-16 16:34:12.495 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-16 16:34:12.502 [info] > git status -z -uall [5ms]
+2024-10-16 16:34:12.503 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-16 16:34:12.597 [info] > git ls-files --stage -- /home/yihongjin/learngit/readme.txt [1ms]
+2024-10-16 16:34:12.603 [info] > git cat-file -s 9a022bf9e43cea0e0d8b14222b6bb3dad59fd220 [3ms]
+2024-10-16 16:34:12.614 [info] > git show --textconv :readme.txt [2ms]
+2024-10-16 16:35:17.856 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 16:35:17.857 [info] > git config --get commit.template [6ms]
+2024-10-16 16:35:17.858 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-10-16 16:35:17.864 [info] > git status -z -uall [4ms]
+2024-10-16 16:35:17.865 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-16 16:39:15.261 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 16:39:15.262 [info] > git config --get commit.template [6ms]
+2024-10-16 16:39:15.262 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-10-16 16:39:15.269 [info] > git status -z -uall [4ms]
+2024-10-16 16:39:15.270 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-16 16:39:15.327 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-16 16:39:20.395 [info] > git show --textconv :cd [3ms]
+2024-10-16 16:39:20.396 [info] > git ls-files --stage -- /home/yihongjin/learngit/cd [1ms]
+2024-10-16 16:39:24.074 [info] > git show --textconv :readme.txt [4ms]
+2024-10-16 16:39:24.075 [info] > git ls-files --stage -- /home/yihongjin/learngit/readme.txt [2ms]
+2024-10-16 16:39:24.078 [info] > git cat-file -s 9a022bf9e43cea0e0d8b14222b6bb3dad59fd220 [1ms]
+2024-10-16 16:39:25.002 [info] > git config --get commit.template [2ms]
+2024-10-16 16:39:25.004 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 16:39:25.006 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-16 16:39:25.013 [info] > git status -z -uall [4ms]
+2024-10-16 16:39:25.016 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-10-16 16:48:48.442 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 16:48:48.442 [info] > git config --get commit.template [4ms]
+2024-10-16 16:48:48.443 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-16 16:48:48.449 [info] > git status -z -uall [3ms]
+2024-10-16 16:48:48.450 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-16 16:48:48.507 [info] > git ls-files --stage -- /home/yihongjin/learngit/readme.txt [1ms]
+2024-10-16 16:48:48.511 [info] > git cat-file -s 99e0e11bf473e435584c73c2c636468a97d45b80 [1ms]
+2024-10-16 16:48:48.560 [info] > git show --textconv :readme.txt [2ms]
+2024-10-16 16:48:53.467 [info] > git config --get commit.template [3ms]
+2024-10-16 16:48:53.470 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 16:48:53.471 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-10-16 16:48:53.477 [info] > git status -z -uall [4ms]
+2024-10-16 16:48:53.478 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-10-16 16:50:09.119 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 16:50:09.120 [info] > git config --get commit.template [5ms]
+2024-10-16 16:50:09.120 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-10-16 16:50:09.128 [info] > git status -z -uall [4ms]
+2024-10-16 16:50:09.129 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-16 16:50:19.451 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 16:50:19.452 [info] > git config --get commit.template [6ms]
+2024-10-16 16:50:19.452 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-16 16:50:19.460 [info] > git status -z -uall [5ms]
+2024-10-16 16:50:19.462 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-16 16:50:31.721 [info] > git show --textconv :license [3ms]
+2024-10-16 16:50:31.722 [info] > git ls-files --stage -- /home/yihongjin/learngit/license [2ms]
+2024-10-16 16:50:31.934 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-16 16:50:32.440 [info] > git config --get commit.template [2ms]
+2024-10-16 16:50:32.443 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 16:50:32.446 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-16 16:50:32.453 [info] > git status -z -uall [4ms]
+2024-10-16 16:50:32.454 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-10-16 16:51:53.070 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 16:51:53.071 [info] > git config --get commit.template [4ms]
+2024-10-16 16:51:53.072 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-10-16 16:51:53.082 [info] > git status -z -uall [8ms]
+2024-10-16 16:51:53.083 [info] > git ls-files --stage -- /home/yihongjin/learngit/license [3ms]
+2024-10-16 16:51:53.084 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2024-10-16 16:51:53.140 [info] > git show --textconv :license [1ms]
+2024-10-16 16:51:58.093 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 16:51:58.097 [info] > git config --get commit.template [5ms]
+2024-10-16 16:51:58.099 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-16 16:51:58.107 [info] > git status -z -uall [5ms]
+2024-10-16 16:51:58.107 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-16 17:09:41.227 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 17:09:41.228 [info] > git config --get commit.template [5ms]
+2024-10-16 17:09:41.229 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-16 17:09:41.240 [info] > git status -z -uall [8ms]
+2024-10-16 17:09:41.241 [info] > git ls-files --stage -- /home/yihongjin/learngit/license [2ms]
+2024-10-16 17:09:41.244 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2024-10-16 17:09:41.246 [info] > git cat-file -s 0bfa77ba0ea3b7c9b15424769d497ca9ba90cbf8 [2ms]
+2024-10-16 17:09:41.321 [info] > git show --textconv :license [1ms]
+2024-10-16 17:09:43.433 [info] > git show --textconv :readme.txt [4ms]
+2024-10-16 17:09:43.434 [info] > git ls-files --stage -- /home/yihongjin/learngit/readme.txt [2ms]
+2024-10-16 17:09:43.440 [info] > git cat-file -s f21047c4e00d8526ee9345ef48d3ddc874520231 [1ms]
+2024-10-16 17:09:46.261 [info] > git config --get commit.template [4ms]
+2024-10-16 17:09:46.265 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 17:09:46.268 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-16 17:09:46.275 [info] > git status -z -uall [4ms]
+2024-10-16 17:09:46.276 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-16 17:10:27.365 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 17:10:27.366 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-16 17:10:27.366 [info] > git config --get commit.template [5ms]
+2024-10-16 17:10:27.375 [info] > git status -z -uall [5ms]
+2024-10-16 17:10:27.376 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-16 17:11:00.772 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 17:11:00.773 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-16 17:11:00.773 [info] > git config --get commit.template [5ms]
+2024-10-16 17:11:00.784 [info] > git status -z -uall [8ms]
+2024-10-16 17:11:00.786 [info] > git ls-files --stage -- /home/yihongjin/learngit/readme.txt [3ms]
+2024-10-16 17:11:00.788 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2024-10-16 17:11:00.792 [info] > git cat-file -s db28b2ce47a535ba560ca2ca6b5e0c97cbd5c6b0 [4ms]
+2024-10-16 17:11:00.851 [info] > git show --textconv :readme.txt [2ms]
+2024-10-16 17:11:05.804 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 17:11:05.805 [info] > git config --get commit.template [6ms]
+2024-10-16 17:11:05.806 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-16 17:11:05.814 [info] > git status -z -uall [5ms]
+2024-10-16 17:11:05.815 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-16 18:36:12.069 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 18:36:12.070 [info] > git config --get commit.template [5ms]
+2024-10-16 18:36:12.070 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-16 18:36:12.085 [info] > git status -z -uall [12ms]
+2024-10-16 18:36:12.086 [info] > git ls-files --stage -- /home/yihongjin/learngit/readme.txt [4ms]
+2024-10-16 18:36:12.089 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2024-10-16 18:36:12.093 [info] > git cat-file -s 9a8b34170a3140dc997d5c1b028514c5f892869b [5ms]
+2024-10-16 18:36:12.171 [info] > git show --textconv :readme.txt [2ms]
+2024-10-16 18:37:31.467 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 18:37:31.469 [info] > git config --get commit.template [3ms]
+2024-10-16 18:37:31.469 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-16 18:37:31.478 [info] > git status -z -uall [5ms]
+2024-10-16 18:37:31.478 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-10-16 18:37:36.416 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-16 18:37:36.416 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-16 18:37:47.209 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-16 18:37:47.209 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-17 09:12:51.234 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-17 09:12:51.234 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-17 09:13:51.228 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-17 09:13:51.228 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-17 09:15:51.223 [info] > git rev-parse --show-toplevel [0ms]
+2024-10-17 09:15:51.226 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-10-17 09:15:51.233 [info] [Model][openRepository] Opened repository: /home/yihongjin
+2024-10-17 09:15:51.238 [info] > git config --get commit.template [2ms]
+2024-10-17 09:15:51.239 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-17 09:15:51.239 [warning] [Git][getBranch] No such branch: master
+2024-10-17 09:15:51.243 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-10-17 09:15:51.715 [info] > git status -z -uall [475ms] (cancelled)
+2024-10-17 09:16:51.212 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-17 09:16:51.212 [info] > git check-ignore -v -z --stdin [3ms]
+2024-10-17 09:17:50.697 [info] > git show --textconv :.ssh/id_rsa.pub [2ms]
+2024-10-17 09:17:50.697 [info] > git ls-files --stage -- /home/yihongjin/.ssh/id_rsa.pub [1ms]
+2024-10-17 09:24:33.241 [info] > git ls-files --stage -- /home/yihongjin/.ssh/id_rsa.pub [1ms]
+2024-10-17 09:24:33.296 [info] > git show --textconv :.ssh/id_rsa.pub [0ms]
+2024-10-17 09:24:43.654 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-17 09:24:45.878 [info] > git check-ignore -v -z --stdin [0ms]
+2024-10-17 09:24:51.609 [info] > git check-ignore -v -z --stdin [1ms]
